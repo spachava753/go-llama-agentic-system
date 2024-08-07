@@ -63,8 +63,8 @@ func (m Message) CustomFunctionCall() bool {
 type BuiltinTool = string
 
 const (
-	BraveSearch  BuiltinTool = "brave_search"
-	WolframAlpha BuiltinTool = "wolfram_alpha"
+	BraveSearchBuiltin  BuiltinTool = "brave_search"
+	WolframAlphaBuiltin BuiltinTool = "wolfram_alpha"
 )
 
 type Function struct {
