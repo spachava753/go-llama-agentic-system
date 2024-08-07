@@ -27,7 +27,7 @@ func TestSystemPrompt(t *testing.T) {
 						Content: SystemPrompt(
 							SystemPromptParams{
 								IPythonEnabled: true,
-								BuiltInTools:   []BuiltinTool{BraveSearch, WolframAlphaBuiltin},
+								BuiltInTools:   []BuiltinTool{BraveSearchBuiltin, WolframAlphaBuiltin},
 							},
 						),
 					},
